@@ -129,8 +129,8 @@ clf = svm.SVC()
 svmTest = clf.fit(x_train,y_train)
 
 
-print("logisticRegr :",log.score(x_test,y_test))
-print("svm :",clf.score(x_test,y_test),"\n")
+print("logisticRegr :",log.score(x_test,y_test),"\n")
+print("svm :",clf.score(x_test,y_test))
 
 
 
